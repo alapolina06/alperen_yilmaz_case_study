@@ -1,0 +1,17 @@
+﻿============================= test session starts =============================
+platform win32 -- Python 3.14.2, pytest-8.3.4, pluggy-1.6.0 -- C:\Users\alperen.yilmaz\.gemini\antigravity\scratch\petstore-api-automation\venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\alperen.yilmaz\.gemini\antigravity\scratch\petstore-api-automation
+configfile: pytest.ini
+collecting ... collected 8 items
+
+tests/test_pet_crud.py::TestPetCRUD::test_pet_olustur_pozitif PASSED     [ 12%]
+tests/test_pet_crud.py::TestPetCRUD::test_pet_getir_pozitif PASSED       [ 25%]
+tests/test_pet_crud.py::TestPetCRUD::test_pet_guncelle_pozitif PASSED    [ 37%]
+tests/test_pet_crud.py::TestPetCRUD::test_pet_sil_pozitif PASSED         [ 50%]
+tests/test_pet_crud.py::TestPetCRUD::test_pet_olustur_negatif PASSED     [ 62%]
+tests/test_pet_crud.py::TestPetCRUD::test_pet_getir_negatif PASSED       [ 75%]
+tests/test_pet_crud.py::TestPetCRUD::test_pet_guncelle_negatif PASSED    [ 87%]
+tests/test_pet_crud.py::TestPetCRUD::test_pet_sil_negatif PASSED         [100%]
+
+============================== 8 passed in 7.90s ==============================
